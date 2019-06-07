@@ -56,31 +56,3 @@ def test_public_static_method_access():
             return 222
 
     assert regulatedClass.foo() == 222
-
-
-# def test_protected_static_method_access():
-#     class regulatedClass(protecc):
-#         def _foo():
-#             return 22
-
-#         def getProtectedB(self):
-#             return regulatedClass._foo()
-
-#     obj = regulatedClass()
-#     with pytest.raises(AccessException):
-#         regulatedClass._foo()
-#     assert obj.getProtectedB() == 22
-
-
-# def test_private_static_method_access():
-#     class regulatedClass(protecc):
-#         def __foo():
-#             return 2
-
-#         def getPrivateB(self):
-#             return regulatedClass._regulatedClass__foo()
-
-#     obj = regulatedClass()
-#     with pytest.raises(AccessException):
-#         regulatedClass._regulatedClass__foo()
-#     assert obj.getPrivateB() == 2
