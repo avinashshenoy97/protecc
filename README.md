@@ -89,9 +89,9 @@ True
 
 ### Note
 
-- This is, by no means, fool proof access protection.
-- "Private members" are those members whose names are mangled by Python, according to PEP 8 convention, i.e, starting with 2 underscores and having not more than one trailing underscore.
-- Additionally, "protected members" are those members whose names are preceded by a single underscores. These members cannot be accessed from outside the class as well.
+- This is, by no means, fool-proof access protection.
+- "Private members" are those members whose names are mangled by Python, as per PEP 8 conventions, i.e, starting with 2 underscores and having not more than one trailing underscore.
+- Additionally, "protected members" are those members whose names are preceded by a single underscores. These members cannot be accessed from outside the class as well, as is expected.
 
 ## Primary Contributors
 
@@ -101,4 +101,4 @@ True
 
 #### License
 
-This project is release under the MIT License.
+This project is released under the [MIT License](https://github.com/avinashshenoy97/protecc/blob/master/LICENSE).
