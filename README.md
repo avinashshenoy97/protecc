@@ -4,13 +4,13 @@ Access modifiers for python.
 
 ## Setup
 
-#### PIP install [WIP]
+#### PIP install
 
 ```bash
 pip install protecc
 ```
 
-#### From the source [WIP]
+#### From the source
 
 ```bash
 git clone https://github.com/avinashshenoy97/protecc
