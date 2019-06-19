@@ -1,3 +1,6 @@
+__name__ = 'protecc'
+__version__ = '0.0.1'
+
 # =============== Imports =============== #
 import inspect
 
